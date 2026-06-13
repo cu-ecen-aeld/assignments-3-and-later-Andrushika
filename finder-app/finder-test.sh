@@ -32,8 +32,6 @@ echo "Writing ${NUMFILES} files containing string ${WRITESTR} to ${WRITEDIR}"
 rm -rf "${WRITEDIR}"
 
 mkdir -p "$WRITEDIR"
-make clean
-make
 
 for i in $( seq 1 $NUMFILES)
 do
